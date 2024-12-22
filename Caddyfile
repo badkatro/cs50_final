@@ -1,0 +1,7 @@
+www.badkatro.info {
+    redir https://badkatro.info{uri}
+}
+
+badkatro.info {
+    reverse_proxy localhost:8000
+}
